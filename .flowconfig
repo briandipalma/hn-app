@@ -1,0 +1,12 @@
+[ignore]
+.*babylon
+.*babel
+.*fbjs
+
+[include]
+
+[libs]
+./flow-libs
+
+[options]
+module.name_mapper='.*\(.css\)' -> 'empty/object'
