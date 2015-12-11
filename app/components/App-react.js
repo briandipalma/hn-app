@@ -1,18 +1,26 @@
 /* @flow */
 
 import React, {
-	Component,
-	PropTypes
+	Component
 } from "react";
+
+import NewsItem from "./NewsItem-react";
 
 class App extends Component {
 	render(): ReactElement {
-		return <div>{`Hello ${this.props.name}`}</div>;
+		return (
+			<div>
+				<NewsItem />
+				<NewsItem />
+				<NewsItem />
+				<NewsItem />
+				<NewsItem />
+				<NewsItem />
+				<NewsItem />
+				<NewsItem />
+			</div>
+		);
 	}
 }
-
-App.propTypes = {
-	name: PropTypes.string
-};
 
 export default App;
