@@ -23,7 +23,7 @@ function logListenEvents(err) {
 	if (err) {
 		console.log(err); // eslint-disable-line
 	} else {
-		console.log(`Listening at localhost:${APP_PORT}`); // eslint-disable-line
+		console.log(`Listening on port ${APP_PORT}`); // eslint-disable-line
 	}
 }
 
@@ -32,4 +32,4 @@ app.use(hmrMiddleware);
 
 app.get("/", indexRouteHandler);
 
-app.listen(APP_PORT, "localhost", logListenEvents);
+app.listen(APP_PORT, logListenEvents);
