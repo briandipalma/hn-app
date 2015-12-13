@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const NewsTitle = () => {
+const NewsTitle = (): ReactElement => {
 	return (
 		<div>
 			<a href={"http://google.com"}>

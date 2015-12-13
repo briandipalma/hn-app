@@ -5,7 +5,7 @@ import React from "react";
 import NewsItemTitle from "./NewsItemTitle-react";
 import NewsItemMetadata from "./NewsItemMetadata-react";
 
-const NewsItem = () => {
+const NewsItem = (): ReactElement => {
 	return (
 		<div>
 			<span>
