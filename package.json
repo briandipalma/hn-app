@@ -50,7 +50,7 @@
     "mocha": "2.3.4",
     "node-libs-browser": "0.5.3",
     "react-transform-catch-errors": "1.0.1",
-    "react-transform-hmr": "1.0.1",
+    "react-transform-hmr": "1.0.2",
     "redbox-react": "1.2.0",
     "socket.io": "1.4.4",
     "style-loader": "0.13.0",
