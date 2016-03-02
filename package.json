@@ -31,7 +31,7 @@
   "homepage": "https://github.com/briandipalma/hn-app#readme",
   "devDependencies": {
     "@briandipalma/eslint-config-bdp": "1.1.2",
-    "babel-cli": "6.4.0",
+    "babel-cli": "6.6.0",
     "babel-core": "6.4.5",
     "babel-eslint": "5.0.0-beta4",
     "babel-loader": "6.2.1",
