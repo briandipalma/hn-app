@@ -1,13 +1,11 @@
 /* @flow */
 
-import React, {
-	Component
-} from "react";
+import React, {Component} from 'react';
 
-import NewsItem from "./NewsItem-react";
+import NewsItem from './NewsItem-react';
 
 class App extends Component {
-	render(): ReactElement {
+	render() {
 		return (
 			<div>
 				<NewsItem />

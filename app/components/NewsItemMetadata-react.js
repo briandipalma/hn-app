@@ -1,11 +1,11 @@
 /* @flow */
 
-import React from "react";
+import React from 'react';
 
-const NewsItemMetadata = (): ReactElement => {
+const NewsItemMetadata = () => {
 	return (
 		<div>
-			{"100 points by auser 1 hour ago | flag | 100 comments"}
+			{'100 points by auser 1 hour ago | flag | 100 comments'}
 		</div>
 	);
 };

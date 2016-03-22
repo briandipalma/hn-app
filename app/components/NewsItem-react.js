@@ -1,18 +1,18 @@
 /* @flow */
 
-import React from "react";
+import React from 'react';
 
-import NewsItemTitle from "./NewsItemTitle-react";
-import NewsItemMetadata from "./NewsItemMetadata-react";
+import NewsItemTitle from './NewsItemTitle-react';
+import NewsItemMetadata from './NewsItemMetadata-react';
 
-const NewsItem = (): ReactElement => {
+const NewsItem = () => {
 	return (
 		<div>
 			<span>
 				{1}
 			</span>
 			<button>
-				{"Up."}
+				{'Up.'}
 			</button>
 			<NewsItemTitle />
 			<NewsItemMetadata />

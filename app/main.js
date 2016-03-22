@@ -1,11 +1,9 @@
 /* @flow */
 
-import React from "react";
-import {render} from "react-dom";
-// import io from "socket.io-client";
+import React from 'react';
+import {render} from 'react-dom';
 
-import "./main-style.css";
-import App from "./components/App-react";
+import './main-style.css';
+import App from './components/App-react';
 
-// const socket = io("http://localhost:7070/");
-render(<App name="Brian Di Palma" />, document.getElementById("container"));
+render(<App />, document.getElementById('container'));
