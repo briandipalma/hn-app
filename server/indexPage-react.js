@@ -1,14 +1,15 @@
 /* @flow */
 
-import express from "express";
-import React from "react";
-import {renderToStaticMarkup} from "react-dom/server";
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+
+import type {ExpressRequest, ExpressResponse} from '../flowlibs/express';
 
 const IndexPage = () => {
 	return (
 		<html>
 			<head>
-				<meta charSet="utf-8"/>
+				<meta charSet="utf-8" />
 			</head>
 			<body>
 				<div id="container">
@@ -19,7 +20,7 @@ const IndexPage = () => {
 	);
 };
 
-export function indexRouteHandler(req: express.Request, res: express.Response) {
+export function indexRouteHandler(req: ExpressRequest, res: ExpressResponse) {
 	console.log(`Request for ${req.url}`); // eslint-disable-line
 
 	// JSX can't process DOCTYPE tags.
